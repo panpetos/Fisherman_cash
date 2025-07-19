@@ -15,7 +15,7 @@
 /* Top Banner */
 .topBanner {
   background: #2b2b2b;
-  padding: 5px 0;
+  padding: 7px 0;
   text-align: center;
 }
 
@@ -50,7 +50,7 @@
   justify-content: space-between;
   align-items: center;
   height: 37px;
-  padding: 39px 0;
+  margin: 7px 0;
   position: relative;
 }
 
@@ -66,7 +66,7 @@
   gap: 30px;
   flex: 1;
   justify-content: center;
-  max-width: 482px;
+  max-width: 495px;
 }
 
 .phoneSection {
