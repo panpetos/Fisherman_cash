@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400&display=swap");
+
+.pageContainer {
+  font-family:
+    "Inter",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Banner */
+.topBanner {
+  background: #2b2b2b;
+  padding: 7px 0;
+  text-align: center;
+}
+
+.bannerText {
+  color: #fff;
+  font-family:
+    "Manrope",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+/* Header Container */
+.headerContainer {
+  background: #fff;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.3);
+}
+
+.headerContent {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main Header */
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 37px;
+  margin: 7px 0;
+  position: relative;
+}
+
+.logo {
+  width: 177px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.centerSection {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+  max-width: 495px;
+}
+
+.phoneSection {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.phoneInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phoneIcon {
+  width: 15px;
+  height: 15px;
+  opacity: 0.2;
+}
+
+.phoneNumber {
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.requestQuoteBtn {
+  padding: 10px 29px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background: transparent;
+  color: #404040;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.9;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family:
+    "Inter",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 11px;
+}
+
+.socialIcon {
+  width: 35px;
+  height: 34px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  width: 259px;
+  height: 40px;
+  background: #f8f8f7;
+  border-radius: 8px;
+  padding: 0 13px;
+  gap: 22px;
+}
+
+.searchIcon {
+  width: 13px;
+  height: 14px;
+  opacity: 0.4;
+}
+
+.searchInput {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 13px;
+  color: #404040;
+  opacity: 0.4;
+  flex: 1;
+  font-family:
+    "Inter",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.searchInput::placeholder {
+  color: #404040;
+  opacity: 0.4;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.cartIconContainer {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #e62430;
+  color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8.9375px;
+  font-weight: bold;
+  font-family:
+    "Inter",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.userIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background: rgba(217, 217, 217, 0.5);
+}
+
+/* Navigation Bar */
+.navigationBar {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid rgba(217, 217, 217, 0.3);
+  border-bottom: 1px solid rgba(217, 217, 217, 0.3);
+  position: relative;
+}
+
+.catalogButton {
+  background: #55ae17;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  font-family:
+    "Inter",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.catalogIcon {
+  display: grid;
+  grid-template-columns: repeat(3, 3px);
+  gap: 2px;
+}
+
+.catalogDot {
+  width: 3px;
+  height: 3px;
+  background: white;
+  border-radius: 50%;
+}
+
+.catalogText {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  height: 100%;
+  flex: 1;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+  border-right: 1px solid rgba(217, 217, 217, 0.5);
+  cursor: pointer;
+  gap: 8px;
+}
+
+.navItem:last-child {
+  border-right: none;
+}
+
+.navText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.dropdownArrow {
+  width: 8px;
+  height: 5px;
+  transform: rotate(90deg);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .headerContent {
+    padding: 0 15px;
+  }
+
+  .centerSection {
+    gap: 20px;
+  }
+
+  .searchContainer {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainHeader {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .centerSection {
+    flex-direction: column;
+    gap: 15px;
+    max-width: none;
+    width: 100%;
+  }
+
+  .phoneSection {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .rightSection {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .searchContainer {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .navigationBar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .catalogButton {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .navMenu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .navItem {
+    border-right: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.3);
+  }
+
+  .phoneNumber {
+    font-size: 16px;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 140px;
+    height: 16px;
+  }
+
+  .navItem {
+    padding: 8px 12px;
+  }
+
+  .catalogButton {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+
+  .bannerText {
+    font-size: 12px;
+  }
+
+  .phoneNumber {
+    font-size: 14px;
+  }
+
+  .requestQuoteBtn {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+}
